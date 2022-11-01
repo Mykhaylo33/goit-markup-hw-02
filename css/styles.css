@@ -1,0 +1,65 @@
+:root{
+    --primary-text-color:#757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
+body{
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+}
+
+.list{
+    list-style: none;
+}
+
+
+.logo-link{
+    color: var(--accent-color);
+}
+
+.logo-header{
+    color: var(--title-text-color);
+}
+
+   /* site-nav */
+
+   .site-nav .link{
+    color: var(--title-text-color);
+   }
+
+   .site-nav .link:hover ,
+   .site-nav .link:focus{
+    color:var(--accent-color);
+   }
+
+   .site-contact .link{
+    color: var(--title-text-color);
+   }
+
+    .site-contact .link:hover ,
+    .site-contact .link:focus {
+       color: var(--accent-color);
+
+   /*Hero*/
+
+  
+
+   /* Section*/
+
+   
+   .section-title{
+        color: font-var(--title-text-color);
+    }
+
+   /* Features */
+
+   .feature-list .title{
+        color: var(--title-text-color);
+    }
+
+   /* Examples */
+
+   .work-list .title {
+    color: var(--title-text-color);
+   }
