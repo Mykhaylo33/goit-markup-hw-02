@@ -24,42 +24,54 @@ body{
 
    /* site-nav */
 
-   .site-nav .link{
+.site-nav .link{
     color: var(--title-text-color);
-   }
+}
 
-   .site-nav .link:hover ,
-   .site-nav .link:focus{
+.site-nav .link:hover ,
+.site-nav .link:focus{
     color:var(--accent-color);
-   }
+}
 
-   .site-contact .link{
-    color: var(--title-text-color);
-   }
+.site-contact .link{
+    color: var(--primary-text-color);
+}
 
-    .site-contact .link:hover ,
-    .site-contact .link:focus {
-       color: var(--accent-color);
+.site-contact .link:hover ,
+.site-contact .link:focus {
+    color: var(--accent-color);
+}
+
+
 
    /*Hero*/
 
-  
+.hero-title{
+    color: var( #FFFFFF);
+}
 
    /* Section*/
 
    
-   .section-title{
-        color: font-var(--title-text-color);
-    }
+.section-title{
+    color: var(--title-text-color);
+}
 
-   /* Features */
+   /* Переваги */
 
-   .feature-list .title{
-        color: var(--title-text-color);
-    }
+.feature-list .title{
+    color: var(--title-text-color);
+}
 
    /* Examples */
 
-   .work-list .title {
+.work-list .title {
     color: var(--title-text-color);
-   }
+}
+
+/*footer*/
+
+.address .link-address{
+    color:#FFFFFF;}
+
+
