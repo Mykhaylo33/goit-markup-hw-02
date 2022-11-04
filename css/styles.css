@@ -3,110 +3,84 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --white-color: #FFFFFF;
-}
-header{
-    background-color: #FFFFFF;}
 
-body{
-    font-family: roboto;
-    background-color:#F5F5F5;
-    color: var(--primary-text-color);
+    --основний-колір-фону: #FFFFFF;
+    --другорядний-колір-фону: #F5F4FA;  
 }
 
 
-
-footer{
-    background-color: #2F303A;
+.page{
+    background-color:var(--основний-колір-фону);
+    color:var(--primary-text-color);
 }
+
+
 
 .list{
     list-style: none;
 }
 
 
-.logo-link{
-    color: var(--accent-color);
-}
+/* nav*/
 
-.logo-header{
+.logo-link{
     color: var(--title-text-color);
 }
 
-.logo-footer{
-    color: var(--white-color);
+
+.logo-header{
+    color: var(--accent-color);
 }
-   /* site-nav */
 
 .site-nav .link{
     color: var(--title-text-color);
 }
 
-.site-nav .link:hover ,
+
+.site-nav .link:hover,
 .site-nav .link:focus{
-    color:var(--accent-color);
-}
-
-.site-contact .link{
-    color: var(--primary-text-color);
-}
-
-.site-contact .link:hover ,
-.site-contact .link:focus {
     color: var(--accent-color);
 }
 
 
+.site-contact .link {
+    color: var(--primary-text-color);
+}
 
-   /*Hero*/
 
+.site-contact .link:hover,
+.site-contact .link:focus{
+    color: var(--accent-color);
+}
+
+
+/*Hero*/
 .hero{
     background-color: #2F303A;
-}
-
-.hero-title{
     color: var(--white-color);
+    text-align:center;
 }
 
-.button{
-    color:var(--white-color);
-    background-color: #2196F3;
-}
-   /* Section*/
 
-   
+.hero .button{
+  background-color: #188CE8;
+  color: #FFFFFF;
+}
+
+
+.hero .button:hover{
+  background-color:  #188CE8;
+
+}
+
+
+/*   */
 .section-title{
     color: var(--title-text-color);
+
 }
 
-   /* Переваги */
 
 .feature-list .title{
     color: var(--title-text-color);
-}
-
-   /* Examples */
-
-.work-list .title {
-    color: var(--title-text-color);
-}
-
-/*footer*/
-
-
-.link-address{
-    color:var(--white-color);
-}
-
-.link-address:hover,
-.link-address:focus {
-    color: var(--accent-color);
-}
-
-.link{
-    color: var(--primary-text-color);
-}
-
-.link:hover,
-.link:focus{
-    color: var(--accent-color);
 }
