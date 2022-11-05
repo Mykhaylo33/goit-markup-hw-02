@@ -75,12 +75,55 @@
 
 
 /*   */
-.section-title{
+.feature-title{
     color: var(--title-text-color);
 
 }
 
 
-.feature-list .title{
+.feature-list .feature-text{
     color: var(--title-text-color);
+}
+
+
+/*Чим ми займаємося*/
+.our-work-title{
+    color: var(--title-text-color);
+}
+
+
+/* Наша команда */
+.our-teams-title{
+    color: var(--title-text-color);
+}
+
+
+.teams-title{
+    color: var(--title-text-color);
+}
+
+
+/*footer*/
+.page-footer{
+    background-color:  #2F303A;
+}
+
+
+.logo-link{
+    color: var(--accent-color);
+}
+
+
+.logo-footer{
+    color: var(--white-color)
+}
+
+
+.address-link{
+    color: var(--white-color);
+}
+
+
+.link{
+    color:rgba(255, 255, 255, 0.6) ;
 }
