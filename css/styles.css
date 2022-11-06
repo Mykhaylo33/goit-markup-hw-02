@@ -2,6 +2,7 @@
     --primary-text-color:#757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+<<<<<<< HEAD
     --primary-white-color: #FFFFFF;
     --footer-text-color: rgba(255, 255, 255, 0.6);
     --secondary-bg-color: #F5F4FA;
@@ -17,15 +18,117 @@ body{
     letter-spacing: 0.03em;
     line-height: 1.14;
 
-    color: var(--primary-text-color);
-    background-color:var(--secondary-bg-color)
+=======
+    --white-color: #FFFFFF;
+
+    --основний-колір-фону: #FFFFFF;
+    --другорядний-колір-фону: #F5F4FA;  
 }
 
+
+.page{
+    background-color:var(--основний-колір-фону);
+    color:var(--primary-text-color);
+}
 
 
 
 .list{
     list-style: none;
+}
+
+
+/* nav*/
+
+.logo-link{
+    color: var(--title-text-color);
+}
+
+
+.logo-header{
+    color: var(--accent-color);
+}
+
+.site-nav .link{
+    color: var(--title-text-color);
+}
+
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+
+
+.site-contact .link {
+>>>>>>> 3e2143e448121f689de3c9ca978417d0c1087e1a
+    color: var(--primary-text-color);
+    background-color:var(--secondary-bg-color)
+}
+
+
+<<<<<<< HEAD
+
+=======
+.site-contact .link:hover,
+.site-contact .link:focus{
+    color: var(--accent-color);
+}
+>>>>>>> 3e2143e448121f689de3c9ca978417d0c1087e1a
+
+
+/*Hero*/
+.hero{
+    background-color: #2F303A;
+    color: var(--white-color);
+    text-align:center;
+}
+
+
+.hero .button{
+  background-color: #188CE8;
+  color: #FFFFFF;
+}
+
+
+.hero .button:hover{
+  background-color:  #188CE8;
+
+}
+
+
+/*   */
+.feature-title{
+    color: var(--title-text-color);
+
+}
+
+
+.feature-list .feature-text{
+    color: var(--title-text-color);
+}
+
+
+/*Чим ми займаємося*/
+.our-work-title{
+    color: var(--title-text-color);
+}
+
+
+/* Наша команда */
+.our-teams-title{
+    color: var(--title-text-color);
+}
+
+
+.teams-title{
+    color: var(--title-text-color);
+}
+
+
+/*footer*/
+.page-footer{
+    background-color:  #2F303A;
 }
 
 
@@ -61,6 +164,7 @@ body{
     color: var(--accent-color);
 }
 
+<<<<<<< HEAD
    /* site-nav */
 
 .site-nav .link{
@@ -144,3 +248,19 @@ body{
 .address .link{
 color: var(--footer-text-color);
 }
+=======
+
+.logo-footer{
+    color: var(--white-color)
+}
+
+
+.address-link{
+    color: var(--white-color);
+}
+
+
+.link{
+    color:rgba(255, 255, 255, 0.6) ;
+}
+>>>>>>> 3e2143e448121f689de3c9ca978417d0c1087e1a
