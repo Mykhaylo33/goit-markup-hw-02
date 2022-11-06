@@ -2,39 +2,65 @@
     --primary-text-color:#757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
-    --white-color: #FFFFFF;
+    --primary-white-color: #FFFFFF;
+    --footer-text-color: rgba(255, 255, 255, 0.6);
+    --secondary-bg-color: #F5F4FA;
+    --footer-bg-color: #2F303A;
 }
-header{
-    background-color: #FFFFFF;}
+
+/* General styles */
 
 body{
-    font-family: roboto;
-    background-color:#F5F5F5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.14;
+
     color: var(--primary-text-color);
+    background-color:var(--secondary-bg-color)
 }
 
 
 
-footer{
-    background-color: #2F303A;
-}
 
 .list{
     list-style: none;
 }
 
 
-.logo-link{
+.link {
+    text-decoration: none;
+    color: var(--primary-text-color);
+    }
+
+
+.page-header{
+    background-color:var(--white-color)
+}
+
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+    
+.logo.primary{
+    font-size: 26px;
+    line-height: 1.19;
+ }
+    
+.logo.secondary {
+    font-size: 22px;
+    line-height: 1.18;
+    
+    color: var(--primary-white-color);
+}
+    
+.logo .logo-style {
     color: var(--accent-color);
 }
 
-.logo-header{
-    color: var(--title-text-color);
-}
-
-.logo-footer{
-    color: var(--white-color);
-}
    /* site-nav */
 
 .site-nav .link{
@@ -60,53 +86,61 @@ footer{
    /*Hero*/
 
 .hero{
-    background-color: #2F303A;
+    background-color:var(--footer-bg-color)
 }
+
 
 .hero-title{
-    color: var(--white-color);
+    font-weight: 900;
+    text-align: center;
+    color: var(--primary-white-color);
 }
 
+
+/*button*/
 .button{
-    color:var(--white-color);
-    background-color: #2196F3;
-}
-   /* Section*/
+    text-decoration: none;
 
-   
-.section-title{
+    color:var(--primary-white-color);
+    background-color:var(--accent-color);
+}
+
+
+   /* Особливості*/
+.feutures-title{
     color: var(--title-text-color);
 }
 
-   /* Переваги */
 
-.feature-list .title{
+   /* Чим ми займаємося */
+
+.work .section-title{
     color: var(--title-text-color);
 }
 
-   /* Examples */
+   /* Наша команда */
 
-.work-list .title {
-    color: var(--title-text-color);
+ .team-title{
+    color:var(--title-text-color);
 }
+
+
+.team-members-name{
+    color:var(--title-text-color);
+}
+
+
 
 /*footer*/
 
-
-.link-address{
-    color:var(--white-color);
+.page-footer{
+    background-color: var(--footer-bg-color)
 }
 
-.link-address:hover,
-.link-address:focus {
-    color: var(--accent-color);
+
+.address .address-location {color: var(--primary-white-color);
 }
 
-.link{
-    color: var(--primary-text-color);
-}
-
-.link:hover,
-.link:focus{
-    color: var(--accent-color);
+.address .link{
+color: var(--footer-text-color);
 }
