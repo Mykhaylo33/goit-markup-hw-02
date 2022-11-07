@@ -2,7 +2,6 @@
     --primary-text-color:#757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
-<<<<<<< HEAD
     --primary-white-color: #FFFFFF;
     --footer-text-color: rgba(255, 255, 255, 0.6);
     --secondary-bg-color: #F5F4FA;
@@ -18,7 +17,6 @@ body{
     letter-spacing: 0.03em;
     line-height: 1.14;
 
-=======
     --white-color: #FFFFFF;
 
     --основний-колір-фону: #FFFFFF;
@@ -61,20 +59,16 @@ body{
 
 
 .site-contact .link {
->>>>>>> 3e2143e448121f689de3c9ca978417d0c1087e1a
     color: var(--primary-text-color);
     background-color:var(--secondary-bg-color)
 }
 
 
-<<<<<<< HEAD
 
-=======
 .site-contact .link:hover,
 .site-contact .link:focus{
     color: var(--accent-color);
 }
->>>>>>> 3e2143e448121f689de3c9ca978417d0c1087e1a
 
 
 /*Hero*/
@@ -164,7 +158,6 @@ body{
     color: var(--accent-color);
 }
 
-<<<<<<< HEAD
    /* site-nav */
 
 .site-nav .link{
@@ -248,7 +241,6 @@ body{
 .address .link{
 color: var(--footer-text-color);
 }
-=======
 
 .logo-footer{
     color: var(--white-color)
@@ -263,4 +255,3 @@ color: var(--footer-text-color);
 .link{
     color:rgba(255, 255, 255, 0.6) ;
 }
->>>>>>> 3e2143e448121f689de3c9ca978417d0c1087e1a
