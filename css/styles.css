@@ -3,8 +3,9 @@
     --secondary-text-color: rgba(0, 0, 0, 1);
     --accent-color: rgba(33, 150, 243, 1);
     --white-color: rgba(255, 255, 255, 1)FF;
-
-
+    --primary-white-color:  #ffffff;
+    --primary-bg-color: #F5F5F5;
+    --secondary-bg-color: rgba(47, 48, 58, 1);
 }
 
 
@@ -17,25 +18,23 @@ body {
     font-size: 14px;
     letter-spacing: 0.03em;
     line-height: 1.14;
-    
+
     color: var(--primary-text-color);
-    background-color: var(--primary-white-color);
-    }
+    background-color: var(--primary-bg-color);
+}
 
 
-
-.list{
+ul{
     list-style: none;
 }
 
-
 .link {
     text-decoration: none;
-    color: var(--secondary-text-color);
+    color:;
 }
 
-.page-header{
-    background-color: var(--header-bg-color);
+header{
+    background-color: var(--primary-white-color);
 }
 
 /* Logo  */
@@ -57,29 +56,6 @@ color: var(--primary-white-color);
 }
 
 .logo .logo-style {
-    color: var(--accent-color);
-}
-
-
-/*Nav*/
-.site-nav {
-    font-weight: 500;
-    letter-spacing: 0.02em;
-}
-    
-.site-nav .link:hover,
-.site-nav .link:focus {
-    color: var(--accent-color);
-}
-
-
-.site-contact .link {
-    color: var(--primary-text-color);
-}
-
-
-.site-contact .link:hover,
-.site-contact .link:focus{
     color: var(--accent-color);
 }
 
