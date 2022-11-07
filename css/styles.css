@@ -2,13 +2,10 @@
     --primary-text-color:rgba(117, 117, 117, 1);
     --secondary-text-color: #212121;
     --accent-color: #2196F3;
-    --primary-white-color: #FFFFFF;
-    --secondary-bg-color:rgba(47, 48, 58, 1);
-    --primary-bg-color: #F5F5F5;
-    --header-bg-color: rgba(255, 255, 255, 1);
-    --team-bg-color: rgba(245, 244, 250, 1); 
-   
-    --footer-text-color: rgba(255, 255, 255, 0.6)
+    --white-color: #FFFFFF;
+
+    --основний-колір-фону: #FFFFFF;
+    --другорядний-колір-фону: #F5F4FA;  
 }
 
 
@@ -75,15 +72,18 @@ color: var(--primary-white-color);
 .site-nav .link:focus {
     color: var(--accent-color);
 }
-    
-.contacts-nav .link{    
-    color: var( --primary-text-color);
+
+
+.site-contact .link {
+    color: var(--primary-text-color);
 }
 
-.contacts-nav .link:hover,
-.contacts-nav .link:focus{    
-     color: var(--accent-color);
+
+.site-contact .link:hover,
+.site-contact .link:focus{
+    color: var(--accent-color);
 }
+>>>>>>> 3e2143e448121f689de3c9ca978417d0c1087e1a
 
 
 /*Hero*/
@@ -179,30 +179,23 @@ color: var(--primary-white-color);
 .teams-title{color: var(--secondary-text-color);
 }
 
-/*Foter*/
-.footer{
-    background-color: var(--secondary-bg-color);
+
+.logo-link{
+    color: var(--accent-color);
 }
 /* address */
 
-.address .link{
-    font-style: normal;
-    line-height: 1.71;
-    
-    color: var(--footer-text-color);
-    }
-    
-    .address .link.address-location {
-    color: var(--primary-white-color);
-    }
-    
-    /* Subscription */
-    
-    .uptitle.signup-title {
-    color: var(--primary-white-color);
-    }
-    
-    .site-devs {
-    font-size: 12px;
-    line-height: 2;
-    }
+
+.logo-footer{
+    color: var(--white-color)
+}
+
+
+.address-link{
+    color: var(--white-color);
+}
+
+
+.link{
+    color:rgba(255, 255, 255, 0.6) ;
+}
