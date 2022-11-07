@@ -1,11 +1,10 @@
 :root{
-    --primary-text-color:rgba(117, 117, 117, 1);
-    --secondary-text-color: #212121;
-    --accent-color: #2196F3;
-    --white-color: #FFFFFF;
+    --primary-text-color:   rgba(117, 117, 117, 1);
+    --secondary-text-color: rgba(0, 0, 0, 1);
+    --accent-color: rgba(33, 150, 243, 1);
+    --white-color: rgba(255, 255, 255, 1)FF;
 
-    --основний-колір-фону: #FFFFFF;
-    --другорядний-колір-фону: #F5F4FA;  
+
 }
 
 
@@ -83,7 +82,7 @@ color: var(--primary-white-color);
 .site-contact .link:focus{
     color: var(--accent-color);
 }
->>>>>>> 3e2143e448121f689de3c9ca978417d0c1087e1a
+
 
 
 /*Hero*/
