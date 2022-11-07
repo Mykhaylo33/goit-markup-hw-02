@@ -43,7 +43,7 @@ header{
     font-weight: 700;
 }
 
-.logo.primary{
+.logo.primary {
     font-size: 26px;
     line-height: 1.19;
 }
@@ -52,7 +52,7 @@ header{
     font-size: 22px;
     line-height: 1.18;
 
-color: var(--primary-white-color);
+    color: var(--primary-white-color);
 }
 
 .logo .logo-style {
