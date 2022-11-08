@@ -183,8 +183,8 @@ color: var(--primary-white-color);
 .footer{
     background-color: var(--secondary-bg-color);
 }
-/* address */
 
+/* address */
 .address .link{
     font-style: normal;
     line-height: 1.71;
@@ -196,13 +196,4 @@ color: var(--primary-white-color);
     color: var(--primary-white-color);
     }
     
-    /* Subscription */
-    
-    .uptitle.signup-title {
-    color: var(--primary-white-color);
-    }
-    
-    .site-devs {
-    font-size: 12px;
-    line-height: 2;
-    }
+   
