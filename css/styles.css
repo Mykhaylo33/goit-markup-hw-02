@@ -108,31 +108,31 @@ color: var(--primary-white-color);
 .button {
     font-size: 16px;
     text-decoration: none;
-    }
+}
     
-    .button.primary {
+.button.primary {
     font-weight: 700;
     line-height: 1.87;
     letter-spacing: 0.06em;
     
     color: var(--primary-white-color);
     background-color: var(--accent-color);
-    }
+}
     
-    .button.secondary {
+.button.secondary {
     font-weight: 500;
     line-height: 1.62;
     letter-spacing: 0.03em;
     
     color: var(--primary-text-color);
     background-color: var(--secondary-bg-color);
-    }
+}
     
-    .button.secondary:hover,
-    .button.secondary:focus {
-        color: var(--primary-white-color);
-         background-color: var(--accent-color);
-    }
+.button.secondary:hover,
+.button.secondary:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
 
 
     /* Uppercase titles */
@@ -141,7 +141,7 @@ color: var(--primary-white-color);
     font-size: inherit;
     font-weight: 700;
     text-transform: uppercase;
-    }
+}
 
 
     /*feature*/
@@ -190,10 +190,7 @@ color: var(--primary-white-color);
     line-height: 1.71;
     
     color: var(--footer-text-color);
-    }
+}
     
-    .address .link.address-location {
-    color: var(--primary-white-color);
-    }
-    
+
    
