@@ -55,7 +55,7 @@ ul {
   color: var(--accent-color);
 }
 
-/*Nav*/
+------------/*Nav*/----------------
 
 .nav {
   font-weight: 500;
@@ -117,7 +117,7 @@ ul {
   letter-spacing: 0.03em;
 
   color: var(--secondary-text-color);
-  background-color: var(--secondary-bg-color);
+  background-color: #f5f4fa;
 }
 
 .button.secondary:hover,
@@ -148,6 +148,7 @@ ul {
 /* General section title*/
 
 .section-title {
+  font-family: ;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -199,4 +200,20 @@ ul {
 .address .link :hover,
 .address .link :focus {
   color: var(--accent-color);
+}
+
+/* Portfolio  */
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  font-weight: 700;
+  font-size: 18px;
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
 }
