@@ -1,11 +1,10 @@
 :root {
-  --primary-text-color: rgba(117, 117, 117, 1);
+  --primary-text-color: #757575;
   --secondary-text-color: #212121;
+  --primary-white-color: #ffffff;
   --accent-color: #2196f3;
   --seconadry-accent-color: rgba(24, 140, 232, 1);
-  --primary-white-color: #ffffff;
   --secondary-bg-color: #2f303a;
-
   --team-title-bg: #f5f4fa;
   --footer-text-color: rgba(255, 255, 255, 0.6);
 }
@@ -55,7 +54,7 @@ ul {
   color: var(--accent-color);
 }
 
-------------/*Nav*/----------------
+/*Nav*/
 
 .nav {
   font-weight: 500;
@@ -74,6 +73,20 @@ ul {
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
   color: var(--accent-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /*Hero*/
@@ -95,16 +108,15 @@ ul {
 .button {
   font-size: 16px;
   text-decoration: none;
-  cursor: pointer;
 }
 
 .button.primary {
   font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.06em;
-
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .button.primary:hover {
@@ -115,9 +127,9 @@ ul {
   font-weight: 500;
   line-height: 1.62;
   letter-spacing: 0.03em;
-
   color: var(--secondary-text-color);
   background-color: #f5f4fa;
+  cursor: pointer;
 }
 
 .button.secondary:hover,
@@ -146,14 +158,11 @@ ul {
 }
 
 /* General section title*/
-
 .section-title {
-  font-family: ;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-
   color: var(--secondary-text-color);
 }
 
@@ -163,9 +172,11 @@ ul {
   font-size: 16px;
   line-height: 1.19;
 
-  border-color: var(--team-title-bg);
+  background-color: var(--team-title-bg);
 }
-
+.team-members__item {
+  background: var(--primary-white-color);
+}
 .team .team-members-name {
   font-size: inherit;
   font-weight: 500;
@@ -173,14 +184,11 @@ ul {
   color: var(--secondary-text-color);
 }
 
-.team .team-members-name {
-  font-size: inherit;
-  font-weight: 500;
-
-  color: var(--secondary-text-color);
+.team .team-members-position {
+  color: var(--primary-text-color);
 }
-
 /*Foter*/
+
 .page-footer {
   background-color: var(--secondary-bg-color);
 }
@@ -189,31 +197,36 @@ ul {
 .address .link {
   font-style: normal;
   line-height: 1.71;
-
+  letter-spacing: 0.03;
   color: var(--footer-text-color);
 }
 
-.address .link.address-location {
+.address .address-location {
   color: var(--primary-white-color);
 }
 
-.address .link :hover,
-.address .link :focus {
+.link.address-location:hover,
+.link.address-location:focus {
+  color: var(--accent-color);
+}
+
+.address .link:hover,
+.address .link:focus {
   color: var(--accent-color);
 }
 
 /* Portfolio  */
-.portfolio-title {
+
+.portfolio-sample {
   font-weight: 700;
   font-size: 18px;
+  line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
 }
 
-.portfolio-text {
-  font-weight: 700;
-  font-size: 18px;
-
-  letter-spacing: 0.06em;
-
-  color: #212121;
+.portfolio-info {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primary-text-color);
 }
